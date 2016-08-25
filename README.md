@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-Free Code Camp project to create a basic Tic Tac Toe game (Player vs. Computer). <br>
+Free Code Camp project to recreate Tic Tac Toe (Player vs. Computer).  <br>
 
 This was created at CodePen.io. <a href="http://codepen.io/domarp/pen/OXYPaq">Click here</a> to check out the Pen. 
 
