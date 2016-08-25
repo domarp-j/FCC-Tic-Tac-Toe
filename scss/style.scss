@@ -1,0 +1,132 @@
+/***************************************************/
+
+// Bootstrap 3.3.6
+
+$lightGrey: #EBEBEB; 
+$blackBlue: #2F2E33; 
+$pureWhite: #FFFFFF; 
+$cobaltBlue: #3A5199; 
+$brickRed: #962715; 
+$darkGreen: #006400;
+
+body {
+  background-color: $lightGrey; 
+}
+
+.pop-up {
+  position: absolute;  // to overlap other elements
+  color: $blackBlue; 
+  background-color: $pureWhite; 
+  font-family: 'Roboto Mono', monospace; 
+  border: 5px solid $blackBlue; 
+  width: 320px; 
+  height: 160px;
+  margin: 0 auto; // to horizontally center
+  left: 0; // to horizontally center
+  right: 0; // to horizontally center
+  margin-top: 150px;
+}
+
+.pop-up-button {
+  background-color: $pureWhite; 
+  font-size: 280%;
+  font-family: 'Roboto Mono', monospace;
+  width: 63px; 
+  height: 63px;
+  border: 3px solid $blackBlue; 
+  border-radius: 0px; 
+  margin-top: 3px;
+  padding-top: 0px;
+  &:hover, &:active, &:focus, &:active:focus { 
+    background-color: $pureWhite; 
+    border: 3px solid $blackBlue; 
+    outline: 0; 
+    box-shadow: none; 
+  }
+}
+
+#firstMoveScreen {
+  visibility: hidden; 
+}
+
+#chooseX {
+  color: $cobaltBlue; 
+  border-color: $cobaltBlue; 
+}
+
+#chooseO {
+  color: $brickRed; 
+  border-color: $brickRed; 
+}
+
+#check {
+  color: $darkGreen; 
+  border-color: $darkGreen; 
+  font-size: 260%;
+}
+
+#title {
+  color: $blackBlue; 
+  font-family: 'Roboto Mono', monospace; 
+  font-size: 350%;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
+#board {
+  background-color: $blackBlue; 
+  width: 285px; 
+  margin: 0 auto; 
+}
+
+.board-space {
+  background-color: $pureWhite; 
+  font-size: 400%;
+  font-family: 'Roboto Mono', monospace;
+  width: 86px; 
+  height: 86px;
+  border: none; 
+  border-radius: 0px; 
+  padding-top: 3px;
+  &:hover, &:active, &:focus, &:active:focus { 
+    background-color: $pureWhite; 
+    outline: 0; 
+    box-shadow: none; 
+  }
+}
+
+.top-row {
+  margin-top: 6px; 
+  margin-bottom: 5px;
+}
+
+.bottom-row {
+  margin-top: 5px;
+  margin-bottom: 6px; 
+}
+
+.left-col {
+  margin-left: 5px;
+  margin-right: 3px; 
+}
+
+.right-col {
+  margin-right: 5px;
+  margin-left: 3px; 
+}
+
+#resetButton {
+  color: $blackBlue; 
+  background-color: $pureWhite;
+  font-size: 200%;
+  width: 65px; 
+  height: 65px;
+  border: 4px solid $blackBlue; 
+  border-radius: 0px; 
+  margin-top: 25px;
+  &:hover, &:active, &:focus, &:active:focus { 
+    background-color: $pureWhite; 
+    outline: 0; 
+    box-shadow: none; 
+  }
+}

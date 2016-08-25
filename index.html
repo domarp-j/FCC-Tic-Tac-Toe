@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC Project 9 - Tic Tac Toe</title>
+    <title>Tic Tac Toe</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--------------------------------------------------------------------------------------------------------------------->
+
+<!--Font Awesome 4.6.1-->
+<!--Google Fonts - Roboto Mono-->
+
+<body> 
+  
+  <div class="container">
+    
+    <!--START SCREEN - CHOOSING MARK-->
+    <div id="startScreen" class="pop-up text-center">
+      <h3><strong>Choose your mark!</strong></h3>
+      <button id="chooseX" type="button" class="pop-up-button btn btn-primary"><strong>X</strong></button>
+        <button id="chooseO" type="button" class="pop-up-button btn btn-primary"><strong>O</strong></button>
+    </div>
+    
+    <!--FIRST MOVE-->
+    <div id="firstMoveScreen" class="pop-up text-center">
+      <h3><strong><span id="firstMark">?</span> will go first!</strong></h3>
+      <button id="check" type="button" class="pop-up-button btn btn-primary"><i class="fa fa-check"></i></button>
+    </div>
+    
+    <!--TITLE-->
+    <h1 id="title" class="text-center"><strong>TIC TAC TOE</strong></h1>
+    
+    <!--TIC TAC TOE BOARD--> 
+    <!--T = TOP, C = CENTER ROW, B = BOTTOM, L = LEFT, M = MID COLUMN, R = RIGHT-->
+    <div id="board">
+      <!--ROW 1--> 
+      <div class="text-center">
+        <span><button id="TL" type="button" class="board-space top-row left-col btn btn-primary"></button></span>
+        <span><button id="TM" type="button" class="board-space top-row mid-col btn btn-primary"></button></span>
+        <span><button id="TR" type="button" class="board-space top-row right-col btn btn-primary"></button></span>
+      </div>
+      <!--ROW 2-->
+      <div class="text-center">
+        <span><button id="CL" type="button" class="board-space mid-row left-col btn btn-primary"></button></span>
+        <span><button id="CM" type="button" class="board-space mid-row mid-col btn btn-primary"></button></span>
+        <span><button id="CR" type="button" class="board-space mid-row right-col btn btn-primary"></button></span>
+      </div>
+      <!--ROW 3-->
+      <div class="text-center">
+        <span><button id="BL" type="button" class="board-space bottom-row left-col btn btn-primary"></button></span>
+        <span><button id="BM" type="button" class="board-space bottom-row mid-col btn btn-primary"></button></span>
+        <span><button id="BR" type="button" class="board-space bottom-row right-col btn btn-primary"></button></span>
+      </div>
+    </div>
+    
+    <!--RESET-->
+    <div id="reset" class="text-center">
+      <button id="resetButton" type="button" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
+    </div>
+    
+  </div>
+  
+</body>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
